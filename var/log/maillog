@@ -1,0 +1,13 @@
+Jan 18 09:55:26 router newsyslog[412]: logfile first created
+Jan 18 09:55:28 router sm-mta[648]: gethostbyaddr(10.0.2.15) failed: 1
+Jan 18 09:55:28 router sm-mta[649]: starting daemon (8.15.2): SMTP+queueing@00:30:00
+Jan 18 09:55:28 router sm-mta[649]: STARTTLS=server: file /etc/mail/certs/dh.param unsafe: No such file or directory
+Jan 18 09:55:28 router sm-msp-queue[652]: starting daemon (8.15.2): queueing@00:30:00
+Jan 18 10:03:57 router sm-mta[601]: gethostbyaddr(10.0.2.15) failed: 1
+Jan 18 10:03:57 router sm-mta[602]: starting daemon (8.15.2): SMTP+queueing@00:30:00
+Jan 18 10:03:57 router sm-mta[602]: STARTTLS=server: file /etc/mail/certs/dh.param unsafe: No such file or directory
+Jan 18 10:03:58 router sm-msp-queue[605]: starting daemon (8.15.2): queueing@00:30:00
+Jan 18 10:10:24 router sm-mta[601]: gethostbyaddr(10.0.2.15) failed: 1
+Jan 18 10:10:24 router sm-mta[602]: starting daemon (8.15.2): SMTP+queueing@00:30:00
+Jan 18 10:10:24 router sm-mta[602]: STARTTLS=server: file /etc/mail/certs/dh.param unsafe: No such file or directory
+Jan 18 10:10:24 router sm-msp-queue[605]: starting daemon (8.15.2): queueing@00:30:00

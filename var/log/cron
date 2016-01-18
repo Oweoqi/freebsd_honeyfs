@@ -1,0 +1,3 @@
+Jan 18 09:55:26 router newsyslog[412]: logfile first created
+Jan 18 10:05:00 router /usr/sbin/cron[674]: (root) CMD (/usr/libexec/atrun)
+Jan 18 10:11:00 router /usr/sbin/cron[668]: (operator) CMD (/usr/libexec/save-entropy)

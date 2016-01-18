@@ -1,0 +1,12 @@
+Jan 18 09:55:26 router newsyslog[412]: logfile first created
+Jan 18 09:55:27 router sshd[621]: Server listening on :: port 22.
+Jan 18 09:55:27 router sshd[621]: Server listening on 0.0.0.0 port 22.
+Jan 18 09:55:42 router sshd[621]: Received signal 15; terminating.
+Jan 18 10:03:57 router sshd[599]: Server listening on :: port 22.
+Jan 18 10:03:57 router sshd[599]: Server listening on 0.0.0.0 port 22.
+Jan 18 10:04:03 router login: login on ttyv0 as root
+Jan 18 10:04:03 router login: ROOT LOGIN (root) ON ttyv0
+Jan 18 10:10:24 router sshd[599]: Server listening on :: port 22.
+Jan 18 10:10:24 router sshd[599]: Server listening on 0.0.0.0 port 22.
+Jan 18 10:10:34 router login: login on ttyv0 as root
+Jan 18 10:10:34 router login: ROOT LOGIN (root) ON ttyv0

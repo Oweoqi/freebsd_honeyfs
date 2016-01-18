@@ -1,0 +1,3 @@
+2016-01-18 17:54:36 [unknown:groupadd] admin(1001)
+2016-01-18 17:54:36 [unknown:useradd] admin(1001):admin(1001):User &:/home/admin:/bin/sh
+2016-01-18 17:54:36 [unknown:useradd] admin(1001) home /home/admin made

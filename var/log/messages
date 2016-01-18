@@ -1,0 +1,265 @@
+Jan 18 09:55:26 router newsyslog[412]: logfile first created
+Jan 18 09:55:26 router syslogd: kernel boot file is /boot/kernel/kernel
+Jan 18 09:55:26 router kernel: Copyright (c) 1992-2015 The FreeBSD Project.
+Jan 18 09:55:26 router kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Jan 18 09:55:26 router kernel: The Regents of the University of California. All rights reserved.
+Jan 18 09:55:26 router kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Jan 18 09:55:26 router kernel: FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015
+Jan 18 09:55:26 router kernel: root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+Jan 18 09:55:26 router kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Jan 18 09:55:26 router kernel: CPU: Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz (2494.39-MHz K8-class CPU)
+Jan 18 09:55:26 router kernel: Origin="GenuineIntel"  Id=0x306a9  Family=0x6  Model=0x3a  Stepping=9
+Jan 18 09:55:26 router kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Jan 18 09:55:26 router kernel: Features2=0x5e98220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Jan 18 09:55:26 router kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Jan 18 09:55:26 router kernel: AMD Features2=0x1<LAHF>
+Jan 18 09:55:26 router kernel: TSC: P-state invariant
+Jan 18 09:55:26 router kernel: real memory  = 2097086464 (1999 MB)
+Jan 18 09:55:26 router kernel: avail memory = 2001653760 (1908 MB)
+Jan 18 09:55:26 router kernel: Event timer "LAPIC" quality 400
+Jan 18 09:55:26 router kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Jan 18 09:55:26 router kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Jan 18 09:55:26 router kernel: random: <Software, Yarrow> initialized
+Jan 18 09:55:26 router kernel: kbd1 at kbdmux0
+Jan 18 09:55:26 router kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Jan 18 09:55:26 router kernel: acpi0: Power Button (fixed)
+Jan 18 09:55:26 router kernel: acpi0: Sleep Button (fixed)
+Jan 18 09:55:26 router kernel: cpu0: <ACPI CPU> on acpi0
+Jan 18 09:55:26 router kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Jan 18 09:55:26 router kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Jan 18 09:55:26 router kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Jan 18 09:55:26 router kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Jan 18 09:55:26 router kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Jan 18 09:55:26 router kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Jan 18 09:55:26 router kernel: pci0: <ACPI PCI bus> on pcib0
+Jan 18 09:55:26 router kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Jan 18 09:55:26 router kernel: isa0: <ISA bus> on isab0
+Jan 18 09:55:26 router kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Jan 18 09:55:26 router kernel: ata0: <ATA channel> at channel 0 on atapci0
+Jan 18 09:55:26 router kernel: ata1: <ATA channel> at channel 1 on atapci0
+Jan 18 09:55:26 router kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Jan 18 09:55:26 router kernel: vgapci0: Boot video device
+Jan 18 09:55:26 router kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.0.6> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Jan 18 09:55:26 router kernel: em0: Ethernet address: 08:00:27:ba:63:12
+Jan 18 09:55:26 router kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Jan 18 09:55:26 router kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Jan 18 09:55:26 router kernel: ohci0: <OHCI (generic) USB controller> mem 0xf0804000-0xf0804fff irq 22 at device 6.0 on pci0
+Jan 18 09:55:26 router kernel: usbus0 on ohci0
+Jan 18 09:55:26 router kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Jan 18 09:55:26 router kernel: battery0: <ACPI Control Method Battery> on acpi0
+Jan 18 09:55:26 router kernel: acpi_acad0: <AC Adapter> on acpi0
+Jan 18 09:55:26 router kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Jan 18 09:55:26 router kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Jan 18 09:55:26 router kernel: kbd0 at atkbd0
+Jan 18 09:55:26 router kernel: atkbd0: [GIANT-LOCKED]
+Jan 18 09:55:26 router kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Jan 18 09:55:26 router kernel: psm0: [GIANT-LOCKED]
+Jan 18 09:55:26 router kernel: psm0: model IntelliMouse Explorer, device ID 4
+Jan 18 09:55:26 router kernel: orm0: <ISA Option ROM> at iomem 0xc0000-0xc7fff on isa0
+Jan 18 09:55:26 router kernel: sc0: <System console> at flags 0x100 on isa0
+Jan 18 09:55:26 router kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Jan 18 09:55:26 router kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Jan 18 09:55:26 router kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Jan 18 09:55:26 router kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Jan 18 09:55:26 router kernel: ppc0: cannot reserve I/O port range
+Jan 18 09:55:26 router kernel: Timecounters tick every 1.000 msec
+Jan 18 09:55:26 router kernel: pcm0: measured ac97 link rate at 31975 Hz
+Jan 18 09:55:26 router kernel: usbus0: 12Mbps Full Speed USB v1.0
+Jan 18 09:55:26 router kernel: ugen0.1: <Apple> at usbus0
+Jan 18 09:55:26 router kernel: uhub0: <Apple OHCI root HUB, class 9/0, rev 1.00/1.00, addr 1> on usbus0
+Jan 18 09:55:26 router kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Jan 18 09:55:26 router kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Jan 18 09:55:26 router kernel: cd0: Serial Number VB2-01700376
+Jan 18 09:55:26 router kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Jan 18 09:55:26 router kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Jan 18 09:55:26 router kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Jan 18 09:55:26 router kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Jan 18 09:55:26 router kernel: ada0: Serial Number VB33000244-f22e6937
+Jan 18 09:55:26 router kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Jan 18 09:55:26 router kernel: ada0: 2048MB (4194304 512 byte sectors: 16H 63S/T 4161C)
+Jan 18 09:55:26 router kernel: ada0: Previously was known as ad0
+Jan 18 09:55:26 router kernel: random: unblocking device.
+Jan 18 09:55:26 router kernel: Timecounter "TSC-low" frequency 1247195935 Hz quality 1000
+Jan 18 09:55:26 router kernel: Root mount waiting for: usbus0
+Jan 18 09:55:26 router kernel: uhub0: 12 ports with 12 removable, self powered
+Jan 18 09:55:26 router kernel: Trying to mount root from ufs:/dev/ada0s1a [rw]...
+Jan 18 09:55:26 router kernel: .
+Jan 18 09:55:42 router syslogd: exiting on signal 15
+Jan 18 10:03:57 router syslogd: kernel boot file is /boot/kernel/kernel
+Jan 18 10:03:57 router kernel: Copyright (c) 1992-2015 The FreeBSD Project.
+Jan 18 10:03:57 router kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Jan 18 10:03:57 router kernel: The Regents of the University of California. All rights reserved.
+Jan 18 10:03:57 router kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Jan 18 10:03:57 router kernel: FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015
+Jan 18 10:03:57 router kernel: root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+Jan 18 10:03:57 router kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Jan 18 10:03:57 router kernel: CPU: Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz (2494.43-MHz K8-class CPU)
+Jan 18 10:03:57 router kernel: Origin="GenuineIntel"  Id=0x306a9  Family=0x6  Model=0x3a  Stepping=9
+Jan 18 10:03:57 router kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Jan 18 10:03:57 router kernel: Features2=0x5e98220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Jan 18 10:03:57 router kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Jan 18 10:03:57 router kernel: AMD Features2=0x1<LAHF>
+Jan 18 10:03:57 router kernel: TSC: P-state invariant
+Jan 18 10:03:57 router kernel: real memory  = 2097086464 (1999 MB)
+Jan 18 10:03:57 router kernel: avail memory = 2001653760 (1908 MB)
+Jan 18 10:03:57 router kernel: Event timer "LAPIC" quality 400
+Jan 18 10:03:57 router kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Jan 18 10:03:57 router kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Jan 18 10:03:57 router kernel: random: <Software, Yarrow> initialized
+Jan 18 10:03:57 router kernel: kbd1 at kbdmux0
+Jan 18 10:03:57 router kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Jan 18 10:03:57 router kernel: acpi0: Power Button (fixed)
+Jan 18 10:03:57 router kernel: acpi0: Sleep Button (fixed)
+Jan 18 10:03:57 router kernel: cpu0: <ACPI CPU> on acpi0
+Jan 18 10:03:57 router kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Jan 18 10:03:57 router kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Jan 18 10:03:57 router kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Jan 18 10:03:57 router kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Jan 18 10:03:57 router kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Jan 18 10:03:57 router kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Jan 18 10:03:57 router kernel: pci0: <ACPI PCI bus> on pcib0
+Jan 18 10:03:57 router kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Jan 18 10:03:57 router kernel: isa0: <ISA bus> on isab0
+Jan 18 10:03:57 router kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Jan 18 10:03:57 router kernel: ata0: <ATA channel> at channel 0 on atapci0
+Jan 18 10:03:57 router kernel: ata1: <ATA channel> at channel 1 on atapci0
+Jan 18 10:03:57 router kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Jan 18 10:03:57 router kernel: vgapci0: Boot video device
+Jan 18 10:03:57 router kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.0.6> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Jan 18 10:03:57 router kernel: em0: Ethernet address: 08:00:27:ba:63:12
+Jan 18 10:03:57 router kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Jan 18 10:03:57 router kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Jan 18 10:03:57 router kernel: ohci0: <OHCI (generic) USB controller> mem 0xf0804000-0xf0804fff irq 22 at device 6.0 on pci0
+Jan 18 10:03:57 router kernel: usbus0 on ohci0
+Jan 18 10:03:57 router kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Jan 18 10:03:57 router kernel: battery0: <ACPI Control Method Battery> on acpi0
+Jan 18 10:03:57 router kernel: acpi_acad0: <AC Adapter> on acpi0
+Jan 18 10:03:57 router kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Jan 18 10:03:57 router kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Jan 18 10:03:57 router kernel: kbd0 at atkbd0
+Jan 18 10:03:57 router kernel: atkbd0: [GIANT-LOCKED]
+Jan 18 10:03:57 router kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Jan 18 10:03:57 router kernel: psm0: [GIANT-LOCKED]
+Jan 18 10:03:57 router kernel: psm0: model IntelliMouse Explorer, device ID 4
+Jan 18 10:03:57 router kernel: orm0: <ISA Option ROM> at iomem 0xc0000-0xc7fff on isa0
+Jan 18 10:03:57 router kernel: sc0: <System console> at flags 0x100 on isa0
+Jan 18 10:03:57 router kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Jan 18 10:03:57 router kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Jan 18 10:03:57 router kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Jan 18 10:03:57 router kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Jan 18 10:03:57 router kernel: ppc0: cannot reserve I/O port range
+Jan 18 10:03:57 router kernel: Timecounters tick every 1.000 msec
+Jan 18 10:03:57 router kernel: pcm0: measured ac97 link rate at 31561 Hz
+Jan 18 10:03:57 router kernel: usbus0: 12Mbps Full Speed USB v1.0
+Jan 18 10:03:57 router kernel: ugen0.1: <Apple> at usbus0
+Jan 18 10:03:57 router kernel: uhub0: <Apple OHCI root HUB, class 9/0, rev 1.00/1.00, addr 1> on usbus0
+Jan 18 10:03:57 router kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Jan 18 10:03:57 router kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Jan 18 10:03:57 router kernel: cd0: Serial Number VB2-01700376
+Jan 18 10:03:57 router kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Jan 18 10:03:57 router kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Jan 18 10:03:57 router kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Jan 18 10:03:57 router kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Jan 18 10:03:57 router kernel: ada0: Serial Number VB33000244-f22e6937
+Jan 18 10:03:57 router kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Jan 18 10:03:57 router kernel: ada0: 2048MB (4194304 512 byte sectors: 16H 63S/T 4161C)
+Jan 18 10:03:57 router kernel: ada0: Previously was known as ad0
+Jan 18 10:03:57 router kernel: random: unblocking device.
+Jan 18 10:03:57 router kernel: Timecounter "TSC-low" frequency 1247215600 Hz quality 1000
+Jan 18 10:03:57 router kernel: Root mount waiting for: usbus0
+Jan 18 10:03:57 router kernel: uhub0: 12 ports with 12 removable, self powered
+Jan 18 10:03:57 router kernel: Trying to mount root from ufs:/dev/ada0s1a [rw]...
+Jan 18 10:04:03 router login: ROOT LOGIN (root) ON ttyv0
+Jan 18 10:07:24 router pkg-static: pkg-1.6.2 installed
+Jan 18 10:08:09 router pkg: indexinfo-0.2.4 installed
+Jan 18 10:08:09 router pkg: gettext-runtime-0.19.6 installed
+Jan 18 10:08:09 router pkg: nano-2.4.3 installed
+Jan 18 10:08:44 router reboot: rebooted by root
+Jan 18 10:08:44 router syslogd: exiting on signal 15
+Jan 18 10:10:24 router syslogd: kernel boot file is /boot/kernel/kernel
+Jan 18 10:10:24 router kernel: Copyright (c) 1992-2015 The FreeBSD Project.
+Jan 18 10:10:24 router kernel: Copyright (c) 1979, 1980, 1983, 1986, 1988, 1989, 1991, 1992, 1993, 1994
+Jan 18 10:10:24 router kernel: The Regents of the University of California. All rights reserved.
+Jan 18 10:10:24 router kernel: FreeBSD is a registered trademark of The FreeBSD Foundation.
+Jan 18 10:10:24 router kernel: FreeBSD 10.2-RELEASE #0 r286666: Wed Aug 12 15:26:37 UTC 2015
+Jan 18 10:10:24 router kernel: root@releng1.nyi.freebsd.org:/usr/obj/usr/src/sys/GENERIC amd64
+Jan 18 10:10:24 router kernel: FreeBSD clang version 3.4.1 (tags/RELEASE_34/dot1-final 208032) 20140512
+Jan 18 10:10:24 router kernel: CPU: Intel(R) Core(TM) i7-3537U CPU @ 2.00GHz (2494.39-MHz K8-class CPU)
+Jan 18 10:10:24 router kernel: Origin="GenuineIntel"  Id=0x306a9  Family=0x6  Model=0x3a  Stepping=9
+Jan 18 10:10:24 router kernel: Features=0x783fbff<FPU,VME,DE,PSE,TSC,MSR,PAE,MCE,CX8,APIC,SEP,MTRR,PGE,MCA,CMOV,PAT,PSE36,MMX,FXSR,SSE,SSE2>
+Jan 18 10:10:24 router kernel: Features2=0x5e98220b<SSE3,PCLMULQDQ,MON,SSSE3,CX16,SSE4.1,SSE4.2,POPCNT,AESNI,XSAVE,OSXSAVE,AVX,RDRAND>
+Jan 18 10:10:24 router kernel: AMD Features=0x28100800<SYSCALL,NX,RDTSCP,LM>
+Jan 18 10:10:24 router kernel: AMD Features2=0x1<LAHF>
+Jan 18 10:10:24 router kernel: TSC: P-state invariant
+Jan 18 10:10:24 router kernel: real memory  = 2097086464 (1999 MB)
+Jan 18 10:10:24 router kernel: avail memory = 2001653760 (1908 MB)
+Jan 18 10:10:24 router kernel: Event timer "LAPIC" quality 400
+Jan 18 10:10:24 router kernel: ACPI APIC Table: <VBOX   VBOXAPIC>
+Jan 18 10:10:24 router kernel: ioapic0 <Version 1.1> irqs 0-23 on motherboard
+Jan 18 10:10:24 router kernel: random: <Software, Yarrow> initialized
+Jan 18 10:10:24 router kernel: kbd1 at kbdmux0
+Jan 18 10:10:24 router kernel: acpi0: <VBOX VBOXXSDT> on motherboard
+Jan 18 10:10:24 router kernel: acpi0: Power Button (fixed)
+Jan 18 10:10:24 router kernel: acpi0: Sleep Button (fixed)
+Jan 18 10:10:24 router kernel: cpu0: <ACPI CPU> on acpi0
+Jan 18 10:10:24 router kernel: attimer0: <AT timer> port 0x40-0x43,0x50-0x53 on acpi0
+Jan 18 10:10:24 router kernel: Timecounter "i8254" frequency 1193182 Hz quality 0
+Jan 18 10:10:24 router kernel: Event timer "i8254" frequency 1193182 Hz quality 100
+Jan 18 10:10:24 router kernel: Timecounter "ACPI-fast" frequency 3579545 Hz quality 900
+Jan 18 10:10:24 router kernel: acpi_timer0: <32-bit timer at 3.579545MHz> port 0x4008-0x400b on acpi0
+Jan 18 10:10:24 router kernel: pcib0: <ACPI Host-PCI bridge> port 0xcf8-0xcff on acpi0
+Jan 18 10:10:24 router kernel: pci0: <ACPI PCI bus> on pcib0
+Jan 18 10:10:24 router kernel: isab0: <PCI-ISA bridge> at device 1.0 on pci0
+Jan 18 10:10:24 router kernel: isa0: <ISA bus> on isab0
+Jan 18 10:10:24 router kernel: atapci0: <Intel PIIX4 UDMA33 controller> port 0x1f0-0x1f7,0x3f6,0x170-0x177,0x376,0xd000-0xd00f at device 1.1 on pci0
+Jan 18 10:10:24 router kernel: ata0: <ATA channel> at channel 0 on atapci0
+Jan 18 10:10:24 router kernel: ata1: <ATA channel> at channel 1 on atapci0
+Jan 18 10:10:24 router kernel: vgapci0: <VGA-compatible display> mem 0xe0000000-0xe0ffffff irq 18 at device 2.0 on pci0
+Jan 18 10:10:24 router kernel: vgapci0: Boot video device
+Jan 18 10:10:24 router kernel: em0: <Intel(R) PRO/1000 Legacy Network Connection 1.0.6> port 0xd010-0xd017 mem 0xf0000000-0xf001ffff irq 19 at device 3.0 on pci0
+Jan 18 10:10:24 router kernel: em0: Ethernet address: 08:00:27:ba:63:12
+Jan 18 10:10:24 router kernel: pcm0: <Intel ICH (82801AA)> port 0xd100-0xd1ff,0xd200-0xd23f irq 21 at device 5.0 on pci0
+Jan 18 10:10:24 router kernel: pcm0: <SigmaTel STAC9700/83/84 AC97 Codec>
+Jan 18 10:10:24 router kernel: ohci0: <OHCI (generic) USB controller> mem 0xf0804000-0xf0804fff irq 22 at device 6.0 on pci0
+Jan 18 10:10:24 router kernel: usbus0 on ohci0
+Jan 18 10:10:24 router kernel: pci0: <bridge> at device 7.0 (no driver attached)
+Jan 18 10:10:24 router kernel: battery0: <ACPI Control Method Battery> on acpi0
+Jan 18 10:10:24 router kernel: acpi_acad0: <AC Adapter> on acpi0
+Jan 18 10:10:24 router kernel: atkbdc0: <Keyboard controller (i8042)> port 0x60,0x64 irq 1 on acpi0
+Jan 18 10:10:24 router kernel: atkbd0: <AT Keyboard> irq 1 on atkbdc0
+Jan 18 10:10:24 router kernel: kbd0 at atkbd0
+Jan 18 10:10:24 router kernel: atkbd0: [GIANT-LOCKED]
+Jan 18 10:10:24 router kernel: psm0: <PS/2 Mouse> irq 12 on atkbdc0
+Jan 18 10:10:24 router kernel: psm0: [GIANT-LOCKED]
+Jan 18 10:10:24 router kernel: psm0: model IntelliMouse Explorer, device ID 4
+Jan 18 10:10:24 router kernel: orm0: <ISA Option ROM> at iomem 0xc0000-0xc7fff on isa0
+Jan 18 10:10:24 router kernel: sc0: <System console> at flags 0x100 on isa0
+Jan 18 10:10:24 router kernel: sc0: VGA <16 virtual consoles, flags=0x300>
+Jan 18 10:10:24 router kernel: vga0: <Generic ISA VGA> at port 0x3c0-0x3df iomem 0xa0000-0xbffff on isa0
+Jan 18 10:10:24 router kernel: atrtc0: <AT realtime clock> at port 0x70 irq 8 on isa0
+Jan 18 10:10:24 router kernel: Event timer "RTC" frequency 32768 Hz quality 0
+Jan 18 10:10:24 router kernel: ppc0: cannot reserve I/O port range
+Jan 18 10:10:24 router kernel: Timecounters tick every 1.000 msec
+Jan 18 10:10:24 router kernel: pcm0: measured ac97 link rate at 37836 Hz
+Jan 18 10:10:24 router kernel: usbus0: 12Mbps Full Speed USB v1.0
+Jan 18 10:10:24 router kernel: ugen0.1: <Apple> at usbus0
+Jan 18 10:10:24 router kernel: uhub0: <Apple OHCI root HUB, class 9/0, rev 1.00/1.00, addr 1> on usbus0
+Jan 18 10:10:24 router kernel: cd0 at ata1 bus 0 scbus1 target 0 lun 0
+Jan 18 10:10:24 router kernel: cd0: <VBOX CD-ROM 1.0> Removable CD-ROM SCSI device
+Jan 18 10:10:24 router kernel: cd0: Serial Number VB2-01700376
+Jan 18 10:10:24 router kernel: cd0: 33.300MB/s transfers (UDMA2, ATAPI 12bytes, PIO 65534bytes)
+Jan 18 10:10:24 router kernel: cd0: Attempt to query device size failed: NOT READY, Medium not present
+Jan 18 10:10:24 router kernel: ada0 at ata0 bus 0 scbus0 target 0 lun 0
+Jan 18 10:10:24 router kernel: ada0: <VBOX HARDDISK 1.0> ATA-6 device
+Jan 18 10:10:24 router kernel: ada0: Serial Number VB33000244-f22e6937
+Jan 18 10:10:24 router kernel: ada0: 33.300MB/s transfers (UDMA2, PIO 65536bytes)
+Jan 18 10:10:24 router kernel: ada0: 2048MB (4194304 512 byte sectors: 16H 63S/T 4161C)
+Jan 18 10:10:24 router kernel: ada0: Previously was known as ad0
+Jan 18 10:10:24 router kernel: random: unblocking device.
+Jan 18 10:10:24 router kernel: Timecounter "TSC-low" frequency 1247195121 Hz quality 1000
+Jan 18 10:10:24 router kernel: Root mount waiting for: usbus0
+Jan 18 10:10:24 router kernel: uhub0: 12 ports with 12 removable, self powered
+Jan 18 10:10:24 router kernel: Trying to mount root from ufs:/dev/ada0s1a [rw]...
+Jan 18 10:10:34 router login: ROOT LOGIN (root) ON ttyv0
+Jan 18 10:11:27 router halt: halted by root
+Jan 18 10:11:27 router syslogd: exiting on signal 15
